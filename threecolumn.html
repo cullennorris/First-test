@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three Favorite things</title>
+	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+<style>
+body{
+
+      background-color: black;
+	font-family: 'Sansita', sans-serif; color: #FAF5F4;
+	}
+  #pagwrap{
+
+		padding: 5px;
+		width: 960px;
+		margin: 20px auto;
+}
+    #header{
+    	height: 100px;
+    	padding: 0 15px;
+    }
+    #content{
+     width: 290px;
+     float: left;
+     padding:5px 15px;
+  
+    }
+   
+     #middle{
+      width:294px;
+      float:left;
+      padding:5px 15px;
+      margin:0px 5px 5px 5px;
+    }
+    #sidebar{
+      width: 270px;
+      padding: 5px 15px ;
+      float: left;
+    }
+      footer{
+       clear:both;
+        padding: 0 15px;
+
+      }
+
+      /*************************************************
+      *****************************************
+      Media Queries
+      *****************************************
+      **************************************************/
+
+      */For 980px or less */
+
+      @media screen and (max-width: 980px){
+      
+      #oagewrap{
+
+        width: 94%;
+      }
+      #content{
+        width:41%;
+        padding: 1% 4%;
+
+      }
+      #middle{
+        width:41%;
+        padding: 1% 4%;
+        margin: 0px 0px 5px 5px;
+        float: right;
+      }
+
+      header,footer{
+        padding: 1% 4%;
+      }
+
+
+
+
+      }
+/* for 700px or less*/
+@media screen and (max-width: 600px){
+
+  #content{
+    width: auto;
+    float: none;
+    margin-left: 0px;
+
+  }
+  #sidebar{
+    width: auto;
+    float: none;
+  }
+}
+/* for 480 or less*/
+@media screen and (max-width: 480px){
+  
+  header{
+
+    height: auto;
+
+  }
+  h1{
+      font-size: 2em;
+  }
+  #sidebar{
+    display: none;
+  }
+
+#content{
+  background: #f8f8f8;
+}
+header,#content,#middle, #sidebar{
+
+margin-bottom: 5px;
+
+}
+#pagewrap,header, #content, #middle, #sidebar,footer{
+     border: solid 1px #ccc;
+}    
+</style>
+
+</head>
+
+<body>
+<div id ="pagewrap">
+      <header>
+
+      	<h1> Three things i enjoy </h1>
+
+      </header>
+      
+
+      <section id="content">
+           <h2> Number One </h2>
+            <img src= "img/wings.jpg" height="240px" width="250px">
+            <p> i love jordans probably wearing some now. I collect shoes.</p>
+</section>
+
+      <section id = "middle">
+      		<h2> Number Two </h2>
+          <img src= "img/guy.jpg" height="240px" width="250px">
+      		<p> Family guy is really intresting i enjoy family guy. </p>
+
+  
+
+      </section>
+
+      <aside id="sidebar">
+
+      <h2> Number three </h2>
+
+      <img src= "img/food.jpg" height="240px" width="250px">
+
+      <p>I enjoy food very much. Food is really good.
+
+      </p>
+
+      </aside>
+
+<footer>
+	<h2> Footer </h2>
+	<p>  </p>
+</footer>
+
+
+
+</div>
+</body>
+</html>
